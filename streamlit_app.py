@@ -10,3 +10,5 @@ st.write(
 st.button("Submit",)
 
 st.file_uploader("Load spreadsheet",["xlsx","csv"])
+
+st.write(client_id)
