@@ -1,6 +1,6 @@
 import streamlit as st
 
-client_id=st.secrets["id"]
+
 
 st.title("🎈 My new app")
 st.write(
@@ -11,4 +11,4 @@ st.button("Submit",)
 
 st.file_uploader("Load spreadsheet",["xlsx","csv"])
 
-st.write(client_id)
+st.write(st.secrets["id"])
